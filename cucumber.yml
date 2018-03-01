@@ -1,0 +1,4 @@
+chrome: BROWSER=chrome -p output -p html
+firefox: BROWSER=firefox -p output -p html
+output: --format progress
+html: --format html --out=reports/features.html
